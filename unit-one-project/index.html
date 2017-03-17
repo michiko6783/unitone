@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Melissa Pringle</title>
-  <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="script" src="main.js" type="text/javascript">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -18,22 +18,23 @@
 
     <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">My Life</a></li>
-          <li><a href="#">Inspiration</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="myLife"><a href="#">My Life</a></li>
+          <li class="inspiration"><a href="#">Inspiration</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
     </ul>
   </div>
 </nav>
   </div>
   <div class="hero">
-    <img src="images/IMG_3261.jpg" alt="headshot">
+    <img src="images/IMG_3261.jpg" alt="headshot" class="hero">
       <h1>Melissa Pringle</h1>
       <h3>web developer</h3>
   </div>
 
   <div class="about">
     <h2>All About Me</h2>
-      <p class="All About Me">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <p class="about">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -86,34 +87,50 @@
 </div>
 <!--end of carousel-->
 
+<!apply fade in/out to container-->
 <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-xs-12"></div>
-      <div class="col-lg-4 col-md-4 col-xs-12"></div>
-      <div class="col-lg-4 col-md-4 col-xs-12"></div>
-    <span class="family" ></span>
-    <span class="hobbies"></span>
-    <span class="career"></span>
-
-
-
-
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <span class="family" >
+          <h2>Family</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.   </p>
+        </span>
+      </div>
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <span class="hobbies">
+         <h2>In my spare time...</h2>
+          <p class="hobbies">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        </span>
+      </div>
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <span class="careers">
+          <h2>Life experience</h2>
+            <p class="careers">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </span>
+      </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 </body>
+<footer>
+  <form action="/action_page.php" class="contact">
+  E-mail:
+  <input type="email" name="email">
+  <input type="submit">
+</form>
+</footer>
 </html>
