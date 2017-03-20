@@ -6,40 +6,59 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="script" src="main.js" type="text/javascript">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Inconsolata|Indie+Flower" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
+
+    <!-- -Navbar Hamburger -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Melissa Pringle</a>
     </div>
 
-    <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li class="myLife"><a href="#">My Life</a></li>
-          <li class="inspiration"><a href="#">Inspiration</a></li>
-          <li class="contact"><a href="#">Contact</a></li>
-    </ul>
+    <!-- Navbar options -->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="#sectionOne">Melissa Pringle</a></li> -->
+          <li class="about"><a data-toggle="collapse" data-target="#sectionTwo" href="#sectionTwo">All About Me</a></li>
+          <li class="family"><a data-toggle="collapse" data-target="#sectionThree" href="#sectionThree">Family</a></li>
+          <li class="hobbies"><a data-toggle="collapse" data-target="#sectionFour" href="#sectionFour">In my spare time</a></li>
+          <li class="careers"><a data-toggle="collapse" data-target="#sectionFive" href="#sectionFive">Life Experience</a></li>
+          <li class="contact"><a href="#contact">Contact</a></li>
+      </ul>
+
+    </div>
   </div>
 </nav>
+
   </div>
   <div class="hero">
-    <img src="images/IMG_3261.jpg" alt="headshot" class="hero">
+    <img src="images/IMG_3261.jpg" alt="headshot" class="hero" id="sectionOne">
       <h1>Melissa Pringle</h1>
       <h3>web developer</h3>
   </div>
 
-  <div class="about">
+  <div class="about" id="sectionTwo">
     <h2>All About Me</h2>
-      <p class="about">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        Of course the first things shared when you see a title "All About Me" is the name, age,
+        hobbies, etc...so let's get those out of the way.<br> My name is Melissa Pringle, I'm currently
+        33 years old, I have a husband whom I've been with for nearly 10 years and a 12 year old son.<br>
+        I've never had a clear path in my life to say "I was destined to do this". I fell ito my
+        previous career being a cosmetologist at 19. <br>It did me well and I got to meet all sorts of
+        people; some I'll never forget and some I wish I could. After 8 years I wanted something <br>more
+        and decided to become and instructor and teach cosmetology and nail technology. <br> Now let's
+        move on below...</p>
   </div>
   <!-- img carousel indicators-->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -65,13 +84,13 @@
       <img src="images/IMG_2419.jpg" alt="seras victoria cosplay">
     </div>
     <div class="item">
-      <img src="images/IMG_4386.jpg" alt="wedding picture">
+      <img src="images/IMG_0743.jpg" alt="acrylic flower">
     </div>
     <div class="item">
       <img src="images/IMG_1589.jpg" alt="eating ice cream">
     </div>
     <div class="item">
-      <img src="images/IMG_1840.jpg" alt="gardening">
+      <img src="images/IMG_1706.jpg" alt="nail art">
     </div>
   </div>
 
@@ -86,51 +105,140 @@
 </a>
 </div>
 <!--end of carousel-->
-
-<!apply fade in/out to container-->
 <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-4 col-xs-12">
-        <span class="family" >
+        <span class="family" id="sectionThree">
           <h2>Family</h2>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.   </p>
+           <p>This word doesn't mean the same it did years ago, when I was little, as I am sure every
+           generation can say the same. Today, family can whatever you desire to call it, mine is small
+           but irreplacable. <br>I had my son at 21, and he has been the greatest thing to happen to me
+           ever. If it hadn't been for him, I don't want to think of the places I could be. And then
+           the same could be said for my husband as well. We met when my boy was nearly 3 and became the
+           biggest blessing to the two of us. We are a blended family of a blended family. His niece is
+           adopted, and both parents remarried. I'm the eldest of two but, losing my sister when I was 10,
+           has made me an only child for over 20 years. Of course we both have extended blood family but
+           nothing we're close to. Family for us is the best friend of over 15 years you've held onto since
+           middle school and have on the emergency list for you kid's school contact list before your
+           sister or parents. For us, family is my ex'fiance's aunt that calls just to check on my son,
+           Xander, to see if he'd like to go to some festival or see the new cats she's fostering.
+           <br>Like I said, the word means something different to everyone, for us it isn't blood. It's
+           who is there for me when I need them because I know I am when they need it and when they don't
+       </p>
+
+  <!-- family modal -->
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong1">
+  <img src="images/IMG_4386.jpg" alt="wedding picture">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <img src="images/IMG_1744.jpg" alt="DeeDee">
+        <img src="images/IMG_1745.jpg" alt="Dexter">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end family modal -->
         </span>
       </div>
+
+
       <div class="col-lg-4 col-md-4 col-xs-12">
-        <span class="hobbies">
+        <span class="hobbies" id="sectionFour">
          <h2>In my spare time...</h2>
-          <p class="hobbies">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-        </span>
+          <p>Not that as a wife, mother and now full-time student in
+          a different city allows for a lot of spare time, but when I squeeze it in, this
+          is what I do with it.<br>
+          I make things for myself and others, be it cosplay outfits and props for conventions,
+          baking just about anything sweet for whatever reason, sew, knit, crochet, cross-stitch,
+          drawing, sketching, painting, carving, sculpting...you name it, if it involves some type of craft/art,
+          I've probably at least tried it.<br> I've been drawing since I can remember but really came into my own
+          in high school when gel pens were a thing. I drew a lot of Lady Death and other comics until I discovered anime.
+          Now I can sketch out just about anything I put my mind to. I've had to learn several techniques with all the
+          different types of art to adapt to my medium. For example anime cell work is done from the foreground,
+          such as highlights and detail, to the background, like the skin and sky, so that they're the smoothest
+          and "underneath" everything else. Where for nail art and canvas You start with the background and work your
+          way forward. It keeps me on my toes! Of course my son is taking after me but also going a fully different route
+          than mine, he's more focused on gaming and anime than me, though I think he's leagues better than me too.</p>
+
+      <!-- hobbies modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong2">
+  <img src="images/IMG_3936.jpg" alt="nail art">
+</button>
+<div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+      <div class="modal-body">
+        <img src="images/IMG_0052.jpg" alt="foam weapon">
+          <img src="images/IMG_0350.PNG" alt="lolita cosplay">
+          <img src="images/IMG_1690.jpg" alt="faux monet">
+          <img src="images/IMG_.jpg" alt="">
+          <img src="images/IMG_2025.jpg" alt="nail art">
+          <img src="images/IMG_1778.jpg" alt="leather work">
+          <img src="images/IMG_3186.jpg" alt="watercolor portrait">
+          <img src="images/IMG_1953.jpg" alt="kpop box">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end hobbies modal -->
+      </span>
+    </div>
       <div class="col-lg-4 col-md-4 col-xs-12">
-        <span class="careers">
+        <span class="careers" id="sectionFive">
           <h2>Life experience</h2>
-            <p class="careers">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>This can be a rather vague subject so I'm going to try to keep it as simple as possible.
+            I'm only going to focus on professional experience and not every little thing I could give an opinion on.<br>
+            First I started working right before my 16th birthday and haven't stopped since. Most of my first jobs were
+            cashiering of some type but I enjoyed. You get to meet all kinds of people but for short amounts of time, so
+            it kept things moving and interesting. After high school and unsure of what I wanted to do, I took a stab in
+            the dark at cosmetology school and that stuck with me. It would take me for an interesting ride for nearly
+            15 years of my life. It's not easy but nothing worth while is. A few years in I found my niche working in a
+            men's salon and had already had my son by that time. But I wanted something more from it, not just client after
+            client. That's when I went back to school and became an instructor to teach cosmetology. It was one of the most
+            rewarding things I'd done. I was impacting lives and starting young, eager minds on a new life path. I taught just
+            cosmetology for a few years and then taught strictly nail technology for 2 more. When I was no longer physically
+            capable to perform my duties I knew I needed to move on. <br>Tehcnology is something I grew up with and has long been
+            a part of my life with a technical engineer for a father. So, digging way back into my childhood, my husband and I
+            thought for me to take a leap of faith and go back to school, which is where I am now. Learning web development, so
+            that I can have a career that is just as intriguing and mind bending as my previous paths even if the terain is different.</p>
         </span>
       </div>
     </div>
 </div>
 </body>
 <footer>
-  <form action="/action_page.php" class="contact">
+    <form action="/action_page_post.php" method="post">
+      <input type="text" name="fname" required>
+      <input type="submit" value="Submit">
+    </form>
+
+ <!--  <form action="/action_page.php" class="contact">
   E-mail:
   <input type="email" name="email">
-  <input type="submit">
+  <input type="submit"> -->
 </form>
 </footer>
 </html>

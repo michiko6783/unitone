@@ -9,5 +9,12 @@ The grid layout is set for lg, md and xs devices at col-lg-4, col-md-4 and col-x
 Since I do not have any complete projects for presentation I took liberty to make the All About Me just that:
     included is family, hobbies and other talents of mine including work from my previous career.
 
+With help, got the toggle navbar working and managed to get the background image to show. 
+Successfully linked the navbar to the pages sections so they hide/show upon click though they dont scroll currently.
+
+Modified font style to 'Gloria Hallelujah', cursive.
+still having a hard time figuring out the margins that are not budging but have made them rather opaque.
+
+Added more pictures for hobbies and career.
 
 
