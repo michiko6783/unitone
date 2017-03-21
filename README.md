@@ -17,4 +17,12 @@ still having a hard time figuring out the margins that are not budging but have 
 
 Added more pictures for hobbies and career.
 
+after finishing all three sections with text and photo galleries, 
+I added a carousel at the bottom with some of my favorite nerdy quotes that inspire me for times of difficulty.
+
+the submit field for the email does have an alert box if not filled out and the button is pushed but it is not
+currently linked to anything. 
+
+overall it still has plenty of work but a good start for a simple single page layout.
+
 

@@ -13,3 +13,4 @@ $("li .hobbies").on("click", function(){
 $("li .careers").on("click", function(){
   $(".careers").css("display", "block")
 });
+
